@@ -541,7 +541,7 @@ button {
 #userCoinDisplay {
   position: fixed;
   top: 2.5vh;
-  left: 5.3vh; /* Adjust the right position as needed */
+  left: 5.3vh; 
 }
 
 #dailyWordButton {
