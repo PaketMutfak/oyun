@@ -7945,9 +7945,9 @@ const darkMode = () => {
 
 const infoPopup = () => {
   document.getElementById("infoo").textContent =
-    "NASIL OYNANIR?" +
+    "NASIL OYNANIR? </br>" +
     "\n" +
-    "\nPENTAHARF'i 6 denemede bulun." +
+    "\nPaketWordle'i 6 denemede bulun." +
     "\n" +
     "\nHer tahmin 5 harfli bir kelime olmalıdır. Göndermek için enter'a basın." +
     "\n" +
