@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Paket Mutfak | TÜRKÇE WORDLE</title>
+<link rel="stylesheet" href="style_tr.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+
+<body>
+
+    <div class="game-container">
+        <div class="title-container">
+
+            <h1>Paket Mutfak - Wordle</h1>
+
+            <h2 id="dark"><a onclick="darkMode()" class="bi bi-moon-stars-fill"></a></h2>
+            <h2 id="info"><a onclick="infoPopup()" class="bi bi-info-square-fill"></a></h2>
+            <h2 id="stats"><a onclick="showUserStatistics()" class="bi bi-bar-chart-fill"></a></h2>
+
+        </div>
+        <div class="button-container">
+            <button id="dailyWordButton">Günlük</button>
+            <button id="wordButton">Sınırsız</button>
+        </div>
+        <div class="board-container">
+
+            <div class="message-container"></div>
+
+            <div class="tile-container"></div>
+        </div>
+
+        <div class="key-container"></div>
+        <div class="container" id="endContainer"><i onclick="closePopup()" id="close" class="bi bi-x-circle-fill"></i>
+
+            <p id="results">
+                <p id="gameEnd">
+                                <div id="attemptsPerWordDisplay"></div>
+
+                </p>
+
+            </p>
+
+            <p id="infoo">
+
+            </p>
+
+            <p id="statss">
+
+            </p>
+
+            <div id="averagePlayTimeDisplay" class="text-center mb-4 pt-5"></div>
+
+        </div>
+    </div>
+
+
+
+    <script src="app_tr.js"></script>
+</body>
+
+</html>
