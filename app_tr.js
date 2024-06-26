@@ -7811,7 +7811,7 @@ const checkRow = () => {
   const guess = guessRows[currentRow].join("");
   if (currentTile > 4) {
     if (!checkwords.includes(guess)) {
-      showMessage("KELİME LİSTEDE YOK!");
+      showMessage("Kelime yok!");
       return;
     } else {
       // Word found
