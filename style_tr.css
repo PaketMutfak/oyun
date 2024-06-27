@@ -65,9 +65,7 @@ background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/
   background-size: 48px 48px;
   padding-left: 68px;
 }
-.baslik h1{
-font-size:32px;
-}
+
 
 #lang {
   display: none;
@@ -196,10 +194,6 @@ a:hover {
 }
 
 
-.logoo img {
-  margin-right: 4px;
-  height: 48px;
-}
 .baslik h1 {
   height: 42px;
   padding-top: 6px;
@@ -511,15 +505,7 @@ infoo h2 {
   background-position: left;
   background-size: 48px 48px;
 }
-.logoo {
-  background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/66696709130b91241f685602_Icon.svg");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 48px 48px;
-  padding-left: 10px;
-width: 48px;
-  padding-right:10px;
-}
+
 button {
   color: #fff;
   background-color: #161616;
