@@ -8022,7 +8022,7 @@ const showUserStatistics = () => {
     const averagePlayTimeDisplay = document.getElementById(
       "averagePlayTimeDisplay"
     );
-    averagePlayTimeDisplay.textContent = `Oyun Süresi: ${averagePlayTimeInSeconds} saniye.`;
+    averagePlayTimeDisplay.textContent = `Oyun Süresi: ${averagePlayTimeInSeconds} saniye. \n Doğru Kelime: ${wordle}`;
     document.getElementById("statss").innerHTML = "Merhaba JavaScript";
   }
 
