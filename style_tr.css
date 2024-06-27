@@ -65,6 +65,9 @@ background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/
   background-size: 48px 48px;
   padding-left: 68px;
 }
+.baslik h1{
+font-size:32px;
+}
 
 #lang {
   display: none;
