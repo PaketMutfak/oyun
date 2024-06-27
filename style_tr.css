@@ -63,7 +63,7 @@ background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/
   background-repeat: no-repeat;
   background-position: left;
   background-size: 48px 48px;
-  padding-left: 58px;
+  padding-left: 68px;
 }
 
 #lang {
@@ -502,14 +502,11 @@ infoo h2 {
   color: #ccc !important;
 }
 
-.dark-mode .logoo {
+.dark-mode .baslik  {
   background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/666976e4224f6cdeec0d542f_icon-disi.svg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 48px 48px;
-padding-left: 10px;
-width: 48px;
-  padding-right:10px;
 }
 .logoo {
   background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/66696709130b91241f685602_Icon.svg");
