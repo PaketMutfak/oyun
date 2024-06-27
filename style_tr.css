@@ -186,11 +186,7 @@ a:hover {
 .tile-container div {
   display: flex;
 }
-.logoo {
-  display: flex;
-  height: 48px;
-  align-items: flex-start;
-}
+
 
 .logoo img {
   margin-right: 4px;
