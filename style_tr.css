@@ -63,7 +63,7 @@ background-image: url("https://uploads-ssl.webflow.com/5eda2d07e219c8dc92000955/
   background-repeat: no-repeat;
   background-position: left;
   background-size: 48px 48px;
-  padding-left: 68px;
+  padding-left: 60px;
 }
 
 
@@ -195,8 +195,8 @@ a:hover {
 
 
 .baslik h1 {
-  height: 42px;
-  padding-top: 6px;
+  height: 48px;
+  font-size: 32px;
 }
 
 .tile-container .tile {
