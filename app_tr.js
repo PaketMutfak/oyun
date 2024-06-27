@@ -7625,7 +7625,7 @@ const keys = [
   "L",
   "Ş",
   "İ",
-  "ENTER",
+  "DENE",
   "Z",
   "C",
   "V",
@@ -7945,9 +7945,9 @@ const darkMode = () => {
 
 const infoPopup = () => {
   document.getElementById("infoo").textContent =
-    "NASIL OYNANIR? </br>" +
-    "\n" +
-    "\nPaketWordle'i 6 denemede bulun." +
+    "NASIL OYNANIR?
+    \n
+    PaketWordle'i 6 denemede bulun." +
     "\n" +
     "\nHer tahmin 5 harfli bir kelime olmalıdır. Göndermek için enter'a basın." +
     "\n" +
