@@ -7944,7 +7944,7 @@ const darkMode = () => {
 };
 
 const infoPopup = () => {
-  document.getElementById("infoo").innerHTML ="Nasıl Oynanır?<br/>PaketWordle'i 6 denemede bulun. <br/>Her tahmin 5 harfli bir kelime olmalıdır. <br/>Göndermek için DENE'ye basın. <br/>Her tahminden sonra kutucukların renkleri tahmininizin yakınlığına göre değişecektir.<br/> 🟩 harf kelimede var ve doğru yerde.<br/>🟨 harf kelimede var fakat yanlış yerde.<br/>⬛ harf kelimede yok.";
+  document.getElementById("infoo").innerHTML ="<h3>Nasıl Oynanır?</h3><br/>PaketWordle'i 6 denemede bulun. <br/>Her tahmin 5 harfli bir kelime olmalıdır. <br/>Göndermek için DENE'ye basın. <br/>Her tahminden sonra kutucukların renkleri tahmininizin yakınlığına göre değişecektir.<br/> 🟩 harf kelimede var ve doğru yerde.<br/>🟨 harf kelimede var fakat yanlış yerde.<br/>⬛ harf kelimede yok.";
   var box1 = document.getElementById("attemptsPerWordDisplay");
   box1.style.display = "none";
   var box2 = document.getElementById("gameEnd");
