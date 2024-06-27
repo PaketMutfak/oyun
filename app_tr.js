@@ -7625,7 +7625,7 @@ const keys = [
   "L",
   "Ş",
   "İ",
-  "DENE",
+  "ENTER",
   "Z",
   "C",
   "V",
