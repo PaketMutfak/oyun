@@ -7945,7 +7945,7 @@ const darkMode = () => {
 
 const infoPopup = () => {
   document.getElementById("infoo").textContent =
-    "NASIL OYNANIR?"
+    "NASIL OYNANIR?" +
     "\n" +
     "\nPaketWordle'i 6 denemede bulun." +
     "\n" +
