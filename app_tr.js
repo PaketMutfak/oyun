@@ -7625,7 +7625,7 @@ const keys = [
   "L",
   "Ş",
   "İ",
-  "ENTER",
+  "DENE",
   "Z",
   "C",
   "V",
@@ -7763,7 +7763,7 @@ const handleClick = (letter) => {
       deleteLetter();
       return;
     }
-    if (letter === "ENTER") {
+    if (letter === "DENE") {
       checkRow();
       return;
     }
